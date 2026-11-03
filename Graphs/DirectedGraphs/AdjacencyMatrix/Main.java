@@ -1,4 +1,5 @@
-package Graphs.DirectedGraphs;
+package Graphs.DirectedGraphs.AdjacencyMatrix;
+
 public class Main {
     public static void main(String[] args){
         Graph graph = new Graph(5);

@@ -1,4 +1,4 @@
-package Graphs.DirectedGraphs;
+package Graphs.DirectedGraphs.AdjacencyMatrix;
 public class Node {
     char data;
 
