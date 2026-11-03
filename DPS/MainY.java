@@ -9,13 +9,14 @@
         
 public class MainY {
     public static void main(String[] args){
-        Graph graph = new Graph(5);
+        Graph graph = new Graph(6);
 
         graph.addNode(new Node('A'));
         graph.addNode(new Node('B'));
         graph.addNode(new Node('C'));
         graph.addNode(new Node('D'));
         graph.addNode(new Node('E'));
+        graph.addNode(new Node('F'));
 
         graph.addEdge(0, 1);
         graph.addEdge(1, 2);
@@ -23,10 +24,11 @@ public class MainY {
         graph.addEdge(2, 4);
         graph.addEdge(4, 0);
         graph.addEdge(4, 2);
+        graph.addEdge(5 ,4);
 
-       // graph.print();
+       graph.print();
 
-        graph.depthFirstSearch(4);
+        //graph.depthFirstSearch(4);
 
       //  System.out.println(graph.checkEdge(3,2));
     }
