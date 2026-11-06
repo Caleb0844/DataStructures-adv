@@ -17,7 +17,6 @@ public class Main {
 
         for(String key : table.keySet()){
             System.out.println(key.hashCode() % 21  + "\t" + key + "\t" + table.get(key));
-
         }
     }
     
@@ -25,7 +24,7 @@ public class Main {
 
 // Hashtable = A datastructure that stores unique key to values eg <Interger, String>
 //             Each key/value pair is nown as an entry
-//             FAST Insertion, look up, deletion of key/value pairs
+//             FAST Insertion, look up, deletion of key/value pairss
 //             Not ideal for small datasets great with large datasets
 // Hashing = takes a key and computes an interger (formula will vary based on the key and data type)
 //           In a hashtable we use hash % capacity to calculate an index numer
