@@ -10,7 +10,7 @@ public class Main {
         table.put("100", "Eleven");
         table.put("123", "Mike");
         table.put("321", "Dustin");
-        table.put("555", "Lucas");
+        table.put("555", "Luca");
         table.put("777", "Will");
 
        // table.remove(777);
